@@ -1,3 +1,5 @@
+# python make_report.py ../data/processed/avengers_processed.csv ../reports/top_ten_appearances1.md
+
 import csv
 import sys
 import operator
@@ -14,9 +16,6 @@ def read_file(file_name):
             column_names[keys] = column_names[keys].lower()
             column_names[keys] = column_names[keys].strip('\n').strip('?').rstrip().lstrip()
             column_names[keys] = column_names[keys].replace('/','_').replace(' ', '_')
-
-        #Note: Avenger class is code reused!
-        #I tested this class, for the avenger file, and I could see it is useful for initializing a dictionary-based record.
 
         ten_rows = [Avenger(dict(zip(column_names, row))) for row in records]
         ten_rows.sort(key=operator.attrgetter('appearancesInComics'), reverse=True)

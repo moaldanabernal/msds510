@@ -1,5 +1,4 @@
-# Command:
-# python "C:\University\BellevueUniversity\DSC510 Programming\midterm\msds510\src\process_csv.py" "C:\University\BellevueUniversity\DSC510 Programming\midterm\msds510\data\raw\avengers.csv" "C:\University\BellevueUniversity\DSC510 Programming\midterm\msds510\data\processed\avengers_processed.csv"
+# python process_csv.py ../data/raw/avengers.csv ../data/processed/avengers_processed.csv
 
 import sys
 import csv

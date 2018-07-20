@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f65cd5a7-603c-4043-aefa-11a12010b3af" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/msds510.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/msds510.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/make_report.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/make_report.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/msds510/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/msds510/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/process_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/process_csv.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,14 +15,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="make_report.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="make_report.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/make_report.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="680">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
-                <element signature="e#101#111#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="util.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/msds510/util.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="730">
+              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
             </state>
           </provider>
         </entry>
@@ -30,11 +39,8 @@
       <file leaf-file-name="process_csv.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/process_csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="26" selection-start-column="26" selection-end-column="26" />
-              <folding>
-                <element signature="e#310#320#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="561">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -83,9 +89,9 @@
         <option value="$PROJECT_DIR$/util/avenger.py" />
         <option value="$PROJECT_DIR$/make_report.py" />
         <option value="$PROJECT_DIR$/src/msds510/__init__.py" />
-        <option value="$PROJECT_DIR$/src/msds510/util.py" />
         <option value="$PROJECT_DIR$/src/process_csv.py" />
         <option value="$PROJECT_DIR$/src/make_report.py" />
+        <option value="$PROJECT_DIR$/src/msds510/util.py" />
       </list>
     </option>
   </component>
@@ -100,6 +106,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,7 +156,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -196,10 +202,27 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/make_report.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/process_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/make_report.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
           <folding>
-            <element signature="e#101#111#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -212,7 +235,7 @@
         <state relative-caret-position="527">
           <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
           <folding>
-            <element signature="e#101#111#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -225,7 +248,7 @@
         <state relative-caret-position="17">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <element signature="e#101#111#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -245,33 +268,33 @@
     <entry file="file://$PROJECT_DIR$/util/date.py" />
     <entry file="file://$PROJECT_DIR$/util/avenger.py" />
     <entry file="file://$PROJECT_DIR$/util/util.py" />
-    <entry file="file://$PROJECT_DIR$/src/msds510/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="43" column="61" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reports/top_ten_appearances.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/process_csv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        <state relative-caret-position="561">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reports/top_ten_appearances2.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/make_report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
-            <element signature="e#310#320#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/make_report.py">
+    <entry file="file://$PROJECT_DIR$/src/msds510/util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#101#111#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="730">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
         </state>
       </provider>
     </entry>

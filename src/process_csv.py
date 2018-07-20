@@ -1,4 +1,4 @@
-# python process_csv.py ../data/raw/avengers.csv ../data/processed/avengers_processed.csv
+# python process_csv.py ../data/raw/avengers.csv ../data/processed/avengers_processed1.csv
 
 import sys
 import csv

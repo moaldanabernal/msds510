@@ -1,4 +1,4 @@
-# python make_report.py ../data/processed/avengers_processed.csv ../reports/top_ten_appearances1.md
+# python make_report.py ../data/processed/avengers_processed.csv ../reports/top_ten_appearances.md
 
 import csv
 import sys

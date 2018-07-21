@@ -1,3 +1,7 @@
+'''
+Avenger class
+'''
+
 import datetime
 
 

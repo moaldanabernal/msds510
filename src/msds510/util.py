@@ -1,4 +1,5 @@
 '''
+This module includes changes after using flake8 and PEP 257 -- Docstring Conventions.
 Avenger class
 '''
 

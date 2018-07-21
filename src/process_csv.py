@@ -1,4 +1,5 @@
 '''
+This module includes changes after using flake8 and PEP 257 -- Docstring Conventions.
 This module transforms a cvs original file and convert it to utf8.
 Then, the file names are improved into the utf8 new file
 '''

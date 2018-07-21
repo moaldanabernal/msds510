@@ -1,4 +1,5 @@
 '''
+This module includes changes after using flake8 and PEP 257 -- Docstring Conventions.
 This module creates a markdown report of the top ten Avengers sorted by the number of appearances.
 The user should type two parameters:
 1. The .cvs file name

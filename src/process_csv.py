@@ -1,18 +1,16 @@
-# python process_csv.py ../data/raw/avengers.csv ../data/processed/avengers_processed.csv
-
 import sys
 import csv
 
 # UTF-8 encoded CSV
 
 with open(sys.argv[1], 'rb') as file:
-  my_oldfile = file.read()
+    my_oldfile = file.read()
 
 file_iso = my_oldfile.decode('iso-8859-1')
 file_utf8 = file_iso.encode('utf8')
 
 with open(sys.argv[2], 'wb') as emptyfile:
-  emptyfile.write(file_utf8)
+    emptyfile.write(file_utf8)
 
 # Friendly headers
 
@@ -22,7 +20,7 @@ with open(sys.argv[2], 'r') as in_file:
     fieldnames = []
     for column in in_line.fieldnames:
         new_header = column.lower()
-        new_header = new_header.replace('/', '_').replace(' ','_')
+        new_header = new_header.replace('/', '_').replace(' ', '_')
         new_header = new_header.strip('\n').strip('?')
         fieldnames.append(new_header)
 
@@ -41,4 +39,3 @@ with open(sys.argv[2], 'w', newline='') as new_file:
     writer.writerow(firstRow)
     for row in record:
         writer.writerow(row)
-

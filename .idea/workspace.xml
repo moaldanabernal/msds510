@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f65cd5a7-603c-4043-aefa-11a12010b3af" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/make_report.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/make_report.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/msds510/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/msds510/util.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/process_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/process_csv.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +19,8 @@
       <file leaf-file-name="make_report.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/make_report.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="77" selection-start-column="77" selection-end-column="77" />
+            <state relative-caret-position="663">
+              <caret line="39" column="54" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -28,13 +31,18 @@
       <file leaf-file-name="process_csv.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/process_csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="26" selection-start-column="26" selection-end-column="26" />
+            <state relative-caret-position="680">
+              <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
               <folding>
-                <element signature="e#310#320#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="util.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/msds510/util.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -81,9 +89,9 @@
         <option value="$PROJECT_DIR$/util/avenger.py" />
         <option value="$PROJECT_DIR$/make_report.py" />
         <option value="$PROJECT_DIR$/src/msds510/__init__.py" />
-        <option value="$PROJECT_DIR$/src/msds510/util.py" />
         <option value="$PROJECT_DIR$/src/make_report.py" />
         <option value="$PROJECT_DIR$/src/process_csv.py" />
+        <option value="$PROJECT_DIR$/src/msds510/util.py" />
       </list>
     </option>
   </component>
@@ -98,6 +106,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,7 +156,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -176,6 +184,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28082192" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -186,12 +196,46 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/util/avenger.py" />
+    <entry file="file://$PROJECT_DIR$/util/util.py" />
+    <entry file="file://$PROJECT_DIR$/reports/top_ten_appearances.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reports/top_ten_appearances2.md" />
+    <entry file="file://$PROJECT_DIR$/src/make_report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" lean-forward="true" selection-end-line="40" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/process_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" lean-forward="true" selection-end-line="41" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/msds510/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="180" lean-forward="true" selection-end-line="180" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/make_report.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -243,10 +287,39 @@
     <entry file="file://$PROJECT_DIR$/util/date.py" />
     <entry file="file://$PROJECT_DIR$/util/avenger.py" />
     <entry file="file://$PROJECT_DIR$/util/util.py" />
-    <entry file="file://$PROJECT_DIR$/src/msds510/util.py">
+    <entry file="file://$PROJECT_DIR$/reports/top_ten_appearances.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/process_csv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="43" column="61" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="61" />
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/msds510/util.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/make_report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/make_report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -255,8 +328,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/make_report.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="77" selection-start-column="77" selection-end-column="77" />
+        <state relative-caret-position="527">
+          <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reports/top_ten_appearances.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/make_report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/msds510/date.py" />
+    <entry file="file://$PROJECT_DIR$/src/msds510/conversion.py" />
+    <entry file="file://$PROJECT_DIR$/src/msds510/avenger.py" />
+    <entry file="file://$PROJECT_DIR$/avenger.py" />
+    <entry file="file://$PROJECT_DIR$/date.py" />
+    <entry file="file://$PROJECT_DIR$/conversion.py" />
+    <entry file="file://$PROJECT_DIR$/data/processed/top_ten_appearances.md" />
+    <entry file="file://$PROJECT_DIR$/make_report.py" />
+    <entry file="file://$PROJECT_DIR$/src/msds510/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/conversion.py" />
+    <entry file="file://$PROJECT_DIR$/util/date.py" />
+    <entry file="file://$PROJECT_DIR$/util/avenger.py" />
+    <entry file="file://$PROJECT_DIR$/util/util.py" />
+    <entry file="file://$PROJECT_DIR$/reports/top_ten_appearances.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/msds510/util.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/make_report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="54" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -265,10 +382,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/process_csv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        <state relative-caret-position="680">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
           <folding>
-            <element signature="e#310#320#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

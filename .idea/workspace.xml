@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f65cd5a7-603c-4043-aefa-11a12010b3af" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/make_report.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/make_report.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/msds510/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/msds510/util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/process_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/process_csv.py" afterDir="false" />
-    </list>
+    <list default="true" id="f65cd5a7-603c-4043-aefa-11a12010b3af" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +11,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="make_report.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="make_report.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/make_report.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -39,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="util.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="util.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/msds510/util.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-867">
+            <state>
               <caret lean-forward="true" />
             </state>
           </provider>
@@ -181,6 +177,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28082192" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -365,16 +362,6 @@
     <entry file="file://$PROJECT_DIR$/reports/top_ten_appearances.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/make_report.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#203#213#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/process_csv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -387,8 +374,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/msds510/util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-867">
+        <state>
           <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/make_report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#203#213#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

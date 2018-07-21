@@ -1,18 +1,19 @@
-import sys
 import datetime
+
 
 def to_bool(stringToMakeBool):
     '''
     :param stringToMakeBool: Potential boolean value
     :return: True, False or None
     '''
-    stringToMakeBool=stringToMakeBool.lower()
+    stringToMakeBool = stringToMakeBool.lower()
     if stringToMakeBool == "yes":
         return True
     elif stringToMakeBool == "no":
         return False
     else:
         return None
+
 
 def getmonth(monthtoparse):
     '''
@@ -25,6 +26,7 @@ def getmonth(monthtoparse):
             return monthdict[key]
     return 1
 
+
 def datediffcalculator(joinDate):
     '''
     :param joinDate: Date to calculate time elapsed since
@@ -35,8 +37,10 @@ def datediffcalculator(joinDate):
         joinDate
         difference = today - joinDate
         return difference
-    except:
+    except Exception:
         return None
+        raise
+
 
 class Avenger:
     def __init__(self, record):
@@ -71,14 +75,13 @@ class Avenger:
         self.return4 = to_bool(self.data["return4"])
         self.return5 = to_bool(self.data["return5"])
         self.avengerDict = {'url': self.assignedURL, 'name_alias': self.name, 'appearances': self.appearancesInComics,
-                   'current': self.current_status, 'gender': self.avengerGender,  'probationary_introl':
-                    self.probationary_introl, 'full_reserve_avengers_intro': self.first_appearance,
-                   'year': self.joinYear, 'years_since_joining': self.yearsSince, 'honorary': self.honorary,
-                   'death1': self.death1, 'return1': self.return1, 'death2': self.death2, 'return2': self.return2,
-                   'death3': self.death3, 'return3': self.return3, 'death4': self.death4, 'return4': self.return4,
-                   'death5': self.death5, 'return5': self.return5, 'notes': self.notesData}
-
-
+                            'current': self.current_status, 'gender': self.avengerGender,  'probationary_introl':
+                            self.probationary_introl, 'full_reserve_avengers_intro': self.first_appearance,
+                            'year': self.joinYear, 'years_since_joining': self.yearsSince, 'honorary': self.honorary,
+                            'death1': self.death1, 'return1': self.return1, 'death2': self.death2,
+                            'return2': self.return2, 'death3': self.death3, 'return3': self.return3,
+                            'death4': self.death4, 'return4': self.return4, 'death5': self.death5,
+                            'return5': self.return5, 'notes': self.notesData}
 
     def return_dict(self):
         '''

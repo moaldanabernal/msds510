@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f65cd5a7-603c-4043-aefa-11a12010b3af" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/make_report.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/make_report.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/msds510/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/msds510/util.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/process_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/process_csv.py" afterDir="false" />
@@ -15,13 +17,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="make_report.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="make_report.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/make_report.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
-                <element signature="e#203#213#0" expanded="true" />
+                <element signature="e#400#410#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -30,20 +32,23 @@
       <file leaf-file-name="process_csv.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/process_csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="85" selection-start-line="1" selection-start-column="85" selection-end-line="1" selection-end-column="85" />
+            <state relative-caret-position="85">
+              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
               <folding>
-                <element signature="e#133#143#0" expanded="true" />
+                <element signature="e#219#229#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="util.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="util.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/msds510/util.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="84" lean-forward="true" selection-start-line="1" selection-start-column="84" selection-end-line="1" selection-end-column="84" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#109#119#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,8 +97,10 @@
         <option value="$PROJECT_DIR$/util/avenger.py" />
         <option value="$PROJECT_DIR$/make_report.py" />
         <option value="$PROJECT_DIR$/src/msds510/__init__.py" />
-        <option value="$PROJECT_DIR$/src/make_report.py" />
+        <option value="$PROJECT_DIR$/src/msds510/borrar.py" />
+        <option value="$PROJECT_DIR$/src/borrar.py" />
         <option value="$PROJECT_DIR$/src/process_csv.py" />
+        <option value="$PROJECT_DIR$/src/make_report.py" />
         <option value="$PROJECT_DIR$/src/msds510/util.py" />
       </list>
     </option>
@@ -187,8 +194,6 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28082192" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -199,16 +204,12 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/util/date.py" />
-    <entry file="file://$PROJECT_DIR$/util/avenger.py" />
-    <entry file="file://$PROJECT_DIR$/util/util.py" />
     <entry file="file://$PROJECT_DIR$/reports/top_ten_appearances.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -217,7 +218,7 @@
         <state relative-caret-position="680">
           <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
           <folding>
-            <element signature="e#133#143#0" expanded="true" />
+            <element signature="e#219#229#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -230,7 +231,7 @@
         <state relative-caret-position="663">
           <caret line="39" column="54" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
           <folding>
-            <element signature="e#203#213#0" expanded="true" />
+            <element signature="e#400#410#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -240,7 +241,7 @@
         <state relative-caret-position="527">
           <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
           <folding>
-            <element signature="e#203#213#0" expanded="true" />
+            <element signature="e#400#410#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -253,7 +254,7 @@
         <state relative-caret-position="527">
           <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
           <folding>
-            <element signature="e#203#213#0" expanded="true" />
+            <element signature="e#400#410#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -266,7 +267,7 @@
         <state relative-caret-position="17">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <element signature="e#203#213#0" expanded="true" />
+            <element signature="e#400#410#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -294,7 +295,7 @@
         <state relative-caret-position="731">
           <caret line="43" selection-start-line="43" selection-end-line="43" />
           <folding>
-            <element signature="e#133#143#0" expanded="true" />
+            <element signature="e#219#229#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -307,7 +308,7 @@
         <state relative-caret-position="646">
           <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
           <folding>
-            <element signature="e#203#213#0" expanded="true" />
+            <element signature="e#400#410#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -317,7 +318,7 @@
         <state relative-caret-position="527">
           <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
           <folding>
-            <element signature="e#203#213#0" expanded="true" />
+            <element signature="e#400#410#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -330,7 +331,7 @@
         <state relative-caret-position="527">
           <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
           <folding>
-            <element signature="e#203#213#0" expanded="true" />
+            <element signature="e#400#410#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -343,7 +344,7 @@
         <state relative-caret-position="17">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <element signature="e#203#213#0" expanded="true" />
+            <element signature="e#400#410#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -366,29 +367,59 @@
     <entry file="file://$PROJECT_DIR$/reports/top_ten_appearances.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/msds510/util.py">
+    <entry file="file://$PROJECT_DIR$/src/msds510/borrar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="84" lean-forward="true" selection-start-line="1" selection-start-column="84" selection-end-line="1" selection-end-column="84" />
+        <state relative-caret-position="798">
+          <caret line="50" lean-forward="true" selection-end-line="50" />
+          <folding>
+            <element signature="e#306#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/borrar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <element signature="e#306#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reports/top_ten_appearances2.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/process_csv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="85" selection-start-line="1" selection-start-column="85" selection-end-line="1" selection-end-column="85" />
+        <state relative-caret-position="85">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           <folding>
-            <element signature="e#133#143#0" expanded="true" />
+            <element signature="e#219#229#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/make_report.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#203#213#0" expanded="true" />
+            <element signature="e#400#410#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/msds510/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#109#119#0" expanded="true" />
           </folding>
         </state>
       </provider>

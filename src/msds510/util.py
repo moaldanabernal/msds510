@@ -1,8 +1,55 @@
 '''
+This module includes main functions and include changes after using flake8 and PEP 257 Docstring Conventions.
 Avenger class
 '''
 
+import csv
 import datetime
+import operator
+
+'''Read a file .csv, improve its field names, and get 10 first records'''
+
+
+def read_file(file_name):
+    '''
+    :param get a file .csv:
+    :return: return a list of the top ten Avengers sorted by the number of appearances.
+    '''
+    with open(file_name, 'r') as lines:
+        records = csv.reader(lines)
+        column_names = next(records)
+
+        for keys in range(len(column_names)):
+            column_names[keys] = column_names[keys].lower()
+            column_names[keys] = column_names[keys].strip('\n').strip('?').rstrip().lstrip()
+            column_names[keys] = column_names[keys].replace('/', '_').replace(' ', '_')
+
+        ten_rows = [Avenger(dict(zip(column_names, row))) for row in records]
+        ten_rows.sort(key=operator.attrgetter('appearancesInComics'), reverse=True)
+        return ten_rows[0:10]
+
+
+'''Create a markdown report'''
+
+
+def create_report(report_name, top_ten_rows):
+    '''
+    :param get a markdown report name to create:
+    :param get a list of the top ten Avengers sorted by the number of appearances
+    :return: not return
+    '''
+    with open(report_name, 'w') as write_record:
+        for record in range(len(top_ten_rows)):
+            write_record.writelines(("# ", str((record + 1)) + ". ", top_ten_rows[record].name, '\n\n'))
+            write_record.writelines(("* Number of Appearances: ",
+                                     str(top_ten_rows[record].appearancesInComics), '\n'))
+            write_record.writelines(("* Year Joined: ", str(top_ten_rows[record].joinYear), '\n'))
+            write_record.writelines(("* Years Since Joining: ", str(top_ten_rows[record].yearsSince), '\n'))
+            write_record.writelines(("* URL: ", top_ten_rows[record].assignedURL, '\n\n'))
+            write_record.writelines(("## Notes\n\n"+top_ten_rows[record].notesData, '\n\n'))
+
+
+'''Convert a string to boolean'''
 
 
 def to_bool(stringToMakeBool):
@@ -19,16 +66,23 @@ def to_bool(stringToMakeBool):
         return None
 
 
+'''convert month name to month number'''
+
+
 def getmonth(monthtoparse):
     '''
     :param monthtoparse: month in which avenger joined
     :return: the numerical reference of the month, or 1
     '''
-    monthdict = {'Jan': 1, 'Feb': 2, "Mar": 3, "Apr": 4, "May": 5, "Jun": 6, "Jul": 7, "Aug": 8, "Sep": 9, "Oct": 10, "Nov": 11, "Dec": 12}
+    monthdict = {'Jan': 1, 'Feb': 2, 'Mar': 3, 'Apr': 4, 'May': 5, 'Jun': 6,
+                 'Jul': 7, 'Aug': 8, 'Sep': 9, 'Oct': 10, 'Nov': 11, 'Dec': 12}
     for key in monthdict:
         if key in monthtoparse:
             return monthdict[key]
     return 1
+
+
+'''days between two date'''
 
 
 def datediffcalculator(joinDate):
@@ -62,7 +116,8 @@ class Avenger:
         self.notesData = (self.data['notes'].strip('\n'))
         self.joinYear = int(self.data['year'])
         self.first_appearance = self.data['full_reserve_avengers_intro']
-        self.dateJoined = datetime.date(int(self.data['year']), getmonth(self.data['full_reserve_avengers_intro']), 1)
+        self.dateJoined = datetime.date(int(self.data['year']),
+                                        getmonth(self.data['full_reserve_avengers_intro']), 1)
         diff = datediffcalculator(self.dateJoined)
         self.days = int(diff/datetime.timedelta(days=1))
         self.yearsSince = int(diff/datetime.timedelta(days=365))
@@ -78,14 +133,27 @@ class Avenger:
         self.return3 = to_bool(self.data["return3"])
         self.return4 = to_bool(self.data["return4"])
         self.return5 = to_bool(self.data["return5"])
-        self.avengerDict = {'url': self.assignedURL, 'name_alias': self.name, 'appearances': self.appearancesInComics,
-                            'current': self.current_status, 'gender': self.avengerGender,  'probationary_introl':
-                            self.probationary_introl, 'full_reserve_avengers_intro': self.first_appearance,
-                            'year': self.joinYear, 'years_since_joining': self.yearsSince, 'honorary': self.honorary,
-                            'death1': self.death1, 'return1': self.return1, 'death2': self.death2,
-                            'return2': self.return2, 'death3': self.death3, 'return3': self.return3,
-                            'death4': self.death4, 'return4': self.return4, 'death5': self.death5,
-                            'return5': self.return5, 'notes': self.notesData}
+        self.avengerDict = {'url': self.assignedURL,
+                            'name_alias': self.name,
+                            'appearances': self.appearancesInComics,
+                            'current': self.current_status,
+                            'gender': self.avengerGender,
+                            'probationary_introl': self.probationary_introl,
+                            'full_reserve_avengers_intro': self.first_appearance,
+                            'year': self.joinYear,
+                            'years_since_joining': self.yearsSince,
+                            'honorary': self.honorary,
+                            'death1': self.death1,
+                            'return1': self.return1,
+                            'death2': self.death2,
+                            'return2': self.return2,
+                            'death3': self.death3,
+                            'return3': self.return3,
+                            'death4': self.death4,
+                            'return4': self.return4,
+                            'death5': self.death5,
+                            'return5': self.return5,
+                            'notes': self.notesData}
 
     def return_dict(self):
         '''
@@ -136,7 +204,8 @@ class Avenger:
         return self.joinYear
 
     def getmonth(self, monthtoparse):
-        monthdict = {'Jan': 1, 'Feb': 2, "Mar": 3, "Apr": 4, "May": 5, "Jun": 6, "Jul": 7, "Aug": 8, "Sep": 9, "Oct": 10, "Nov": 11, "Dec": 12}
+        monthdict = {'Jan': 1, 'Feb': 2, 'Mar': 3, 'Apr': 4, 'May': 5, 'Jun': 6,
+                     'Jul': 7, 'Aug': 8, 'Sep': 9, 'Oct': 10, 'Nov': 11, 'Dec': 12}
         for key in monthdict:
             if key in monthtoparse:
                 return monthdict[key]

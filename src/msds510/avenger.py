@@ -59,70 +59,70 @@ class Avenger:
                                    'return5': self.return5,
                                    'notes': self.notes}
 
-    def appearances(self):
+    def appearances_method(self):
         """
         Returns:
             int: The number of comic books that character appeared in.
         """
         return self.appearances
 
-    def year(self):
+    def year_method(self):
         """
         Returns:
             int: The year the character was introduced as a full or reserve member of the Avengers.
         """
         return self.year
 
-    def is_current(self):
+    def is_current_method(self):
         """
         Returns:
             bool: Is the member currently active on an avengers affiliated team? (True/False)
         """
         return self.current
 
-    def notes(self):
+    def notes_method(self):
         """
         Returns:
             str: Descriptions of deaths and resurrections.
         """
         return self.notes
 
-    def date_joined(self):
+    def date_joined_method(self):
         """
         Returns:
             datetime.date: The date the character joined
         """
         return self.year
 
-    def name_alias(self):
+    def name_alias_method(self):
         """
         Returns:
             str: The full name or alias of the character
         """
         return self.name_alias
 
-    def url(self):
+    def url_method(self):
         """
         Returns:
             str: The URL of the comic character. Example, http://marvel.wikia.com/wiki/Dane_Whitman
         """
         return self.url
 
-    def gender(self):
+    def gender_method(self):
         """
         Returns:
             str: The recorded gender of the character
         """
         return self.gender
 
-    def days_since_joining(self):
+    def days_since_joining_method(self):
         """
         Returns:
             int: The number of integer days since the character joined
         """
         return self.days_since_joining
 
-    def years_since_joining(self):
+    def years_since_joining_method(self):
         """
         Returns:
             int: The number of integer years since the character joined

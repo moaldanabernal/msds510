@@ -1,4 +1,9 @@
-
+'''
+This module tests Avenger class.
+The user should type:
+  cd ..msds510\src\msds510
+  python check_class.py
+'''
 from avenger import Avenger
 
 def main():
@@ -27,15 +32,15 @@ def main():
     }
 
     hank_pym = Avenger(pym_record)
-    print('Name/Alias: {}'.format(hank_pym.name_alias))
-    print('URL: {}'.format(hank_pym.url))
-    print('Is Current?: {}'.format(hank_pym.is_current))
-    print('Gender: {}'.format(hank_pym.gender))
-    print('Year Joined: {}'.format(hank_pym.year))
-    print('Date Joined: {}'.format(hank_pym.date_joined))
-    print('Days Since Joined: {}'.format(hank_pym.days_since_joining))
-    print('Years Since Joined: {}'.format(hank_pym.years_since_joining))
-    print('Notes: {}'.format(hank_pym.notes))
+    print('Name/Alias: {}'.format(hank_pym.name_alias_method()))
+    print('URL: {}'.format(hank_pym.url_method()))
+    print('Is Current?: {}'.format(hank_pym.is_current_method()))
+    print('Gender: {}'.format(hank_pym.gender_method()))
+    print('Year Joined: {}'.format(hank_pym.year_method()))
+    print('Date Joined: {}'.format(hank_pym.date_joined_method()))
+    print('Days Since Joined: {}'.format(hank_pym.days_since_joining_method()))
+    print('Years Since Joined: {}'.format(hank_pym.years_since_joining_method()))
+    print('Notes: {}'.format(hank_pym.notes_method()))
     print('__str__: {}'.format(hank_pym))
     print('__repr__: {}'.format(hank_pym.__repr__()))
 

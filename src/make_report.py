@@ -9,16 +9,30 @@ Executes as, python make_report.py ../data/processed/avengers_processed.csv ../r
 '''
 
 import sys
-from msds510.util import create_report, read_file
+from msds510.util import check_dir, check_file, check_argument, create_report, read_file
 
 
 def main():
     '''
-    call main function with tow input parameters:
+    Main Function: create_report()
+    -----------------------------
+    Arguments:
     1. a file .csv
     2. markdown report name to create
+
+    Exceptions Section:
+    ------------------
+    1. check_argument(), whether arguments were typed.
+    2. check_file(), whether source file exists.
+    3. check_dir(), whether target directory for the report exists.
     '''
-    create_report(sys.argv[2], read_file(sys.argv[1]))
+
+    first_arg = check_argument(1)
+    second_arg = check_argument(2)
+
+    if first_arg and second_arg:
+        if check_file(first_arg) and check_dir(second_arg):
+            create_report(sys.argv[2], read_file(sys.argv[1]))
 
 
 '''Main function'''

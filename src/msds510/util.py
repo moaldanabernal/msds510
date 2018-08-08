@@ -4,12 +4,58 @@ This module includes main functions and include changes after using flake8 and P
 Avenger class
 '''
 
+import sys
+import os.path
 import csv
 import operator
 from msds510.avenger import Avenger
 
 
-'''Read a file .csv, improve its field names, and get 10 first records'''
+'''Exceptions Section'''
+
+
+def check_file(file_name):
+    '''
+    Function validates that a file exists.
+    :param file_name: file name
+    :return: null whether file doesn't exists
+    '''
+    if not os.path.exists(file_name):
+        print('Avengers File {0} was not found.'.format(file_name))
+        return False
+    else:
+        return True
+
+
+def check_dir(dir_name):
+    '''
+    Function validates that a directory exists.
+    :param dir_name: directory name
+    :return: null whether directory doesn't exists
+    '''
+    if not os.path.exists(os.path.dirname(dir_name)):
+        print('Directory for the markdown report {0} was not found.'.format(dir_name))
+        return False
+    else:
+        return True
+
+
+def check_argument(index):
+    '''
+    Function validates input arguments quantity
+    :param index: argument number
+    :return: argument value or null
+    '''
+    try:
+        sys.argv[index]
+    except IndexError:
+        print('Error in arguments. Type first argument = .cvs file name and second argument = markdown report name.')
+        return ''
+    else:
+        return sys.argv[index]
+
+
+'''1. Read a file .csv, improve its field names, and get 10 first records'''
 
 
 def read_file(file_name):
@@ -31,7 +77,7 @@ def read_file(file_name):
         return ten_rows[0:10]
 
 
-'''Create a markdown report'''
+'''2. Create a markdown report'''
 
 
 def create_report(report_name, top_ten_rows):

@@ -2,7 +2,7 @@
 This module tests Avenger class.
 The user should type:
   cd ..msds510\src\msds510
-  python check_class.py
+  python test_avenger.py
 '''
 from avenger import Avenger
 

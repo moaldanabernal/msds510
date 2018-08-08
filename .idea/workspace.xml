@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f65cd5a7-603c-4043-aefa-11a12010b3af" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/make_report.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/make_report.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/msds510/check_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/msds510/test_avenger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/msds510/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/msds510/util.py" afterDir="false" />
-    </list>
+    <list default="true" id="f65cd5a7-603c-4043-aefa-11a12010b3af" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

@@ -1,25 +1,15 @@
-# msds510
 
-DSC510 - Programming (Python)
-
-Final Project
-
+This project uses a Avengers dataset and transforms the .cvs original file to utf8 in Python. Then, the column names are improved into the utf8 new file. In the end, it creates a markdown report of the top ten Avengers sorted by the number of appearances.
 
 Steps:
 
 1. Run process_csv.py
-
-    This module transforms the .cvs original file and convert it to utf8.
-    Then, the column names are improved into the utf8 new file.
 
     Executes as,
         python process_csv.py ../data/raw/avengers.csv ../data/processed/avengers_processed.csv
 
 
 2. Run make_report.py
-
-    This module creates a markdown report of the top ten Avengers sorted by the number of appearances.
-    In this module, we should use the utf8 new file.
 
     The user should type two parameters:
         1. The .cvs utf8 new file
